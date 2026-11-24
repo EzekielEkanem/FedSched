@@ -1,0 +1,47 @@
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python generated files
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# eBPF and C build artifacts
+build/
+*.o
+*.a
+*.so
+*.skel.h
+
+# Machine learning artifacts
+.cache/
+checkpoints/
+outputs/
+runs/
+wandb/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# Logs
+*.log
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor configurations
+.vscode/
+.idea/
+
+# macOS generated files
+.DS_Store
+
